@@ -14,7 +14,7 @@ def main():
     try:
         with open(filename, 'rb') as file:
             random.seed(bytearray(file.read()))
-            if random.random() < 0.5:
+            if random.random() < 0.69:
                 print('No COVID-19 symptoms detected!')
             else:
                 print('COVID-19 symptoms detected!')
